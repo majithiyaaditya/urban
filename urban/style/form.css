@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(135deg, #f8bbd0 0%, #e1bee7 100%);
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+.form-container {
+    background: #fff0f6;
+    width: 350px;
+    margin: 60px auto;
+    padding: 30px 40px 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(233, 30, 99, 0.10);
+    border: 1.5px solid #f8bbd0;
+}
+h2 {
+    text-align: center;
+    color: #ad1457;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #8e24aa;
+    font-weight: 500;
+    font-size: 1em;
+}
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1.2px solid #f8bbd0;
+    border-radius: 7px;
+    font-size: 15px;
+    background: #fff;
+    transition: border 0.2s, box-shadow 0.2s;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    border: 1.5px solid #ec407a;
+    outline: none;
+    box-shadow: 0 0 6px #f8bbd0;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(90deg, #ec407a 0%, #ab47bc 100%);
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(233, 30, 99, 0.10);
+}
+button:hover {
+    background: linear-gradient(90deg, #ad1457 0%, #8e24aa 100%);
+    box-shadow: 0 4px 16px rgba(233, 30, 99, 0.15);
+}
+.message {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #d81b60;
+    font-weight: 500;
+    font-size: 1em;
+}
+.success {
+    color: #388e3c;
+}
+.link-area {
+    text-align: center;
+    margin-top: 10px;
+    color: #8e24aa;
+    font-size: 1em;
+}
+.link-area a {
+    color: #ec407a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+.link-area a:hover {
+    color: #ad1457;
+    text-decoration: underline;
+} 
