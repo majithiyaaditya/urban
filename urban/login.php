@@ -21,6 +21,17 @@ if (isset($_POST['login'])) {
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="style/form.css">
+// back option blocak
+    <script  type="text/javascript">
+        window.history.forward();
+        function noBack() {
+            window.history.forward();
+        }
+        setTimeout("noBack()", 0);
+        window.onunload = function() {
+            null;
+        }
+    </script>
 </head>
 <body>
 <div class="form-container">
